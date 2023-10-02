@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 n = int(input('Введите число n '))
 b = 0
 c = 1
