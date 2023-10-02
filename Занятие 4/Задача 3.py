@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 a = int(input('Введите a '))
 b = int(input('Введите b, должно быть меньше a '))
 while a > b:
