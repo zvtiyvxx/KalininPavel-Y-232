@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 x = int(input('Введите 1 число '))
 z = int(input('Введите 2 число '))
 y = int(input('Введите 3 число '))
