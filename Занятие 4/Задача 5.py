@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 n = int(input('Введите число n '))
 c = 0
 for i in range(1, n + 1):
