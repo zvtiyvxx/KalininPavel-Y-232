@@ -6,7 +6,6 @@ s = 0
 
 for i in range(n):
     s += a
-    a
     b = b
     a + b
 print(i)
