@@ -1,9 +1,12 @@
 # -- coding: utf-8 --
-a = int(input('Введите a '))
-b = int(input('Введите b, должно быть меньше a '))
-while a > b:
+def gg(a,b):
+    while a > b:
     if a % 2 != 0:
-        print(a)
+        return(a)
     a -= 1
 if b % 2 != 0:
-        print(b)
+        return(b)
+a = int(input('Введите a '))
+b = int(input('Введите b, должно быть меньше a '))
+c = gg(a,b)
+print(c)
