@@ -1,7 +1,9 @@
 # -- coding: utf-8 --
+def gg(n):
+    d = 0
+    for i in range(1, n + 1):
+        d += i ** 3
+    return d
 n = int(input('Введите число n '))
-c = 0
-for i in range(1, n + 1):
-    c += i ** 3
+c = gg(n)
 print(c)
-
